@@ -1,0 +1,9 @@
+input::placeholder {
+    font-style: italic;
+    color: #aaa;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
