@@ -10,12 +10,12 @@
                     <form>
                         <div class="mb-3">
                             <label for="tareaTexto" class="form-label">¿Qué necesitas hacer?</label>
-                            <input type="text" id="tareaTexto" class="form-control" placeholder="Escribe una tarea"
-                                disabled />
+                            <input type="text" #tareaTexto id="tareaTexto" class="form-control" placeholder="Escribe una tarea"
+                                 />
                         </div>
 
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-purple" disabled>
+                            <button type="submit" class="btn btn-purple" (click)="agregarTareaform(tareaTexto.value)">
                                 Añadir Tarea
                             </button>
                         </div>
