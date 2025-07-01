@@ -70,7 +70,7 @@ body {
 
 .btn-outline-purple:hover {
     background-color: var(--btn-bg) !important;
-    color: var(--text) !important;
+    color: var(--bg) !important;
 }
 
 .text-decoration-line-through {
